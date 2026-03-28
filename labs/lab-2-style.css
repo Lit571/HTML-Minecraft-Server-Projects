@@ -1,0 +1,33 @@
+.content{
+    width: 700px;
+    height: 200px;
+    margin: 0px auto;
+    background: rgb(94, 244, 94);
+    /* overflow: auto; */
+    
+}
+
+.line{
+    clear: both;
+}
+
+.item{
+    float: left;
+    width: 326px;   
+    padding: 7px;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    
+}
+
+.left{
+    width: 195px;
+}
+
+.right{
+    float: left;
+    text-align-last: right;
+    width: 456px;
+    
+}

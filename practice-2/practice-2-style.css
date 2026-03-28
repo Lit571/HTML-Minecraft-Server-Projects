@@ -1,0 +1,23 @@
+body{
+    font: normal 1.2em "minecraft rus regular";
+}
+#exaroton{
+    font-size: 1.4em;
+    color: rgb(0, 128, 0);
+}
+a {
+    text-decoration: none;
+}
+.circle {
+    height: 150px;
+    vertical-align: middle;
+    border: solid thin red;
+}
+
+footer{
+    clear: both;
+}
+
+#search{
+    align: right;
+}
