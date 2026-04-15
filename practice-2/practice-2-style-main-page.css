@@ -1,0 +1,51 @@
+body{
+    font: normal 1.2em "minecraft rus regular";
+    
+    background: #F9F9F5;
+}
+
+.icon{
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+    border: 0px;
+    background: url("../img/animal/pig.png") no-repeat center / contain;
+    vertical-align: middle;
+    margin: 0px;
+}
+.plus{
+    background-image: url("../img/icons/plus.png");
+}
+
+/* .icon{
+    width: 0.8em;
+} */
+
+a:visited, a{
+    text-decoration: none;
+    color: #AC80AF;
+}
+
+footer{
+    clear: both;
+}
+footer span{
+    font-size: 1.05em;
+}
+
+
+.exaroton{
+    font-size: 1.209em;
+    color: rgb(0, 128, 0);
+}
+
+a {
+    text-decoration: none;
+}
+.circle {
+    height: 150px;
+    vertical-align: middle;
+    /* border: solid thin red; */
+}
+
+

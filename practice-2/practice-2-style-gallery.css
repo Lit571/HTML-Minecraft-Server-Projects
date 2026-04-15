@@ -4,6 +4,9 @@ body{
     margin: 0.3% 2%;
     color:#02142B;
 }
+.icon{
+    width: 0.8em;
+}
 
 .honeycat:hover{
     text-decoration: none;
@@ -83,7 +86,7 @@ a.info{
 
 #zone-2{
     float: left;
-    width: 65%;
+    width: 64%;
     overflow:auto;
 }
 
