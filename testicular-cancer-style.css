@@ -25,3 +25,55 @@
 .test-block{
     border: solid thin green;
 }
+
+h3.tips{
+    color: #534D8A;
+}
+ol.tips{
+    width: 40%;
+    border-radius: 2rem;
+    background-color: #FDFBD7;
+}
+ol.tips > li{
+    color:#815E35;
+}
+
+
+
+
+/* СТИЛЬ для двух картинок с двумя описаниями сверху
+<div class="two-descrs-two-imgs">
+                    <div class="descr-1">Description-1</div>
+                    <div class="descr-2">Description-2</div>
+                    <div class="img-1">Image-1</div>
+                    <div class="img-2">Image-2</div>
+                </div>
+                
+                
+.two-descrs-two-imgs{ border: #B6D458 thin solid;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: max-content, min-content;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+.descr-1{ border: #B6D458 thin solid;
+    grid-column: 1;
+    grid-row: 1;
+}
+.descr-2{ border: #B6D458 thin solid;
+    grid-column: 2;
+    grid-row: 1;
+}
+.img-1{ border: #B6D458 thin solid;
+    grid-column: 1;
+    grid-row: 2;
+}
+.img-2{ border: #B6D458 thin solid;
+    grid-column: 2;
+    grid-row: 2;
+}*/

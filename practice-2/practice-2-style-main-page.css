@@ -1,13 +1,12 @@
 body{
     font: normal 1.2em "minecraft rus regular";
-    
     background: #F9F9F5;
 }
 
 .icon{
-    display: inline-block;
-    width: 0.8em;
-    height: 0.8em;
+    display: inline-flex;
+    width: 0.8rem;
+    height: 0.8rem;
     border: 0px;
     background: url("../img/animal/pig.png") no-repeat center / contain;
     vertical-align: middle;
