@@ -1,0 +1,30 @@
+/* ICONS */
+.icon{
+    display: flex;
+    width: 1em;
+    height: 1em;
+    background: url("../img/animal/pig.png") no-repeat center / contain;
+    border: 0px;
+    margin: 0 0.2rem;
+}
+.server{
+    background-image: url(../img/icons/server-icon.png);
+}
+.bracket-square-left{
+    background-image: url(../img/icons/bracket-square-left.png);
+}
+.bracket-square-right{
+    background-image: url(../img/icons/bracket-square-right.png);
+}
+.info{
+    background-image: url("../img/icons/interrogation.png");
+}
+.arrow-right{
+    background-image: url("../img/icons/arrow-right.png");
+}
+.plus{
+    background-image: url("../img/icons/plus.png");
+}
+.road-work-ahead{
+    background-image: url(../img/icons/road-work-ahead.png);
+}

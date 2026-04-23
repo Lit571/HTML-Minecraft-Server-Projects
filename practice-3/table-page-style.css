@@ -1,0 +1,113 @@
+/* OTHER STYLESHEETS */
+@import url(../styles-css/icons.css);
+/* templates:
+Debug border: border: #B6D458 thin solid;
+*/
+
+
+/* STRUCTURAL */
+body{
+    font: normal 18px "minecraft rus regular";
+    background-color: #F9F9F5;
+    color: #02142B;
+}
+body::selection{
+    background-color: #83C082;
+    color: #FAFFBA;
+}
+/* header */
+header{
+    display: grid;
+    width: 100%;
+    grid-template-columns: max-content min-content;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    column-gap: 1em;
+    margin: 0 auto;
+    padding: 0.5em 0;
+}
+header > .main-title{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    background: #B6D458;
+    border-radius: 1rem;
+}
+header .server{
+    width: 4rem;
+    height: 4rem;
+    background-image: url(../img/icons/server-icon.png);
+    border-radius: 0.5rem;
+}
+/* navigation */
+nav{
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: min-content repeat(6, 1fr) min-content;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    color: #AC80AF;
+    font-size: 1.5rem;
+}
+nav > div{
+    padding: 0.3em;
+    margin: 0 0.3em;
+}
+nav > div.current-page{
+    justify-self: center;
+    width: min-content;
+    padding: 0.3rem;
+    border-radius: 0.5em;
+    color: #02142B;
+    background-color: #B6D458;
+}
+div.current-page > a, div.current-page > a:hover{
+    color: #02142B;
+    text-decoration: none;
+}
+nav a{
+    color: #AC80AF;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #02142B;
+    font-size: 1.8rem;
+    text-decoration: underline;
+}
+nav .bracket-square-left{ 
+    width: 1.8rem;
+    height: calc(2*1.8rem);
+    margin-right: -5%;
+    align-self: center;
+}
+nav .bracket-square-right{
+    width: 1.8rem;
+    height: calc(2*1.8rem);
+    margin-left: -5%;
+    align-self: center;
+}
+/* footer */
+footer{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 3em;
+}
+footer > div.secret{
+    border-radius: 100%;
+    background-color: #B6D458;
+    margin: 0 0.5%;
+}
+
+
+
+
+/* MAIN */
+
+

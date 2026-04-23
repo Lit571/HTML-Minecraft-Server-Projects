@@ -1,22 +1,30 @@
 <!-- Страница с таблицой и статистикой -->
 <!DOCTYPE html>
-<html lang="ru">
-    <head>
+<html lang="ru">	
+    <head> 
         <meta charset="utf-8">
-        <title>Таблица статистики игроков</title>
-        <link rel="icon" href="../img/practice-1/server-icon.png" type="image/png">
-        <link rel="stylesheet" href="../practice-2/practice-2-style.css" type="text/css">
+        <title>Player's Statistics</title>
+        <link rel="icon" href="../img/icons/server-icon.png" type="image/png">
+        <link rel="stylesheet" href="../practice-3/table-page-style.css" type="text/css">
     </head>
-    <body bgcolor="#F9F9F5" text="#02142B" link="#02142B" vlink="#02142B">
-        <h2 align="center">Таблица статистики игроков</h2>
-        <h3 align="center">
-            <img src="https://github.com/Lit571/HTML-Minecraft-Server-Projects/blob/main/img/practice-1/bracket-square.png?raw=true" alt="[" width="11"><a href="practice-2-page-1.html">Главная страница</a> <img src="https://github.com/Lit571/HTML-Minecraft-Server-Projects/blob/main/img/practice-1/circle-small.png?raw=true" alt="|" width="11">
-            <a href="practice-2-page-2.html">Кот</a> <img src="https://github.com/Lit571/HTML-Minecraft-Server-Projects/blob/main/img/practice-1/circle-small.png?raw=true" alt="|" width="11">
-            <a href="practice-2-page-3.html">Таблица статистики игроков</a><img src="https://github.com/Lit571/HTML-Minecraft-Server-Projects/blob/main/img/practice-1/bracket-square-right.png?raw=true" alt="]" width="11">
-        </h3>
-        <div align="center">
-            <p>
-                <details>
+    <body>
+        <header>
+            <div class="main-title">Elanity Minecraft Server</div>
+            <div><hr class="icon server"></div>
+        </header>
+        <nav>
+            <div class="icon bracket-square-left"></div>
+            <div><a href="main-page.html" target="_blank">Главная страница</a></div>
+            <div><a href="honeycat-page.html" target="_blank">Медокот</a></div>
+            <div><a href="gallery-page.html" target="_blank">Галлерея</a></div>
+            <div class="current-page"><a href="table-page.html" target="_blank">Статистика игроков</a></div>
+            <div><a href="../testicular-cancer.html" target="_blank">Тестовая страница</a></div>
+            <div><a href="practice-3.html" target="_blank">ПР3</a></div>
+            <div class="icon bracket-square-right"></div>
+        </nav>
+        <main>
+            <div>
+                <details open>
                     <summary>График</summary>
                     <form>
                         <b>Значение по оси X</b><br>
@@ -30,11 +38,11 @@
                             <label><input name="Ah2" type="checkbox" value="2"> Блоков сломано</label><br>
                             <br>
                         <input type="button" value="Построить"><br><br>
-                        <code>ИДУТ РЕМОНТНЫЕ РАБОТЫ <img src="https://github.com/Lit571/HTML-Minecraft-Server-Projects/blob/main/img/practice-1/road-work-ahead.png?raw=true" alt="road work ahead" width="30" align="center" title="Road Work Ahead"></code>
+                        ИДУТ РЕМОНТНЫЕ РАБОТЫ <hr class="icon road-work-ahead">
                     </form>
                 </details>
                 <br>
-                <details>
+                <details open>
                     <summary>Фильтрация</summary>
                     <form>
                         <label>Имя игрока: <input name="Ah3" type="text" placeholder="Epstein"></label><br>
@@ -51,7 +59,7 @@
                     </form>
                 </details>
                 <br>
-                <details>
+                <details open>
                     <summary>Сортировка</summary>
                     <form>
                         Первый уровень: 
@@ -97,9 +105,7 @@
                     </form>
                 </details>
                 <br>
-            </p>
-        </div>
-        
+            </div>
             <p>
                 <table align="center" cellspacing="0" cellpadding="7" width="800" height="100" bgcolor="#F9F9F5" bordercolor="#AC80AF" border="2" rules="cols">
                     <tr>
@@ -668,6 +674,12 @@
                     </tr>
                 </table>
             </p>
-        
+        </main>
+        <footer>
+            <hr class="icon info"> Группа: Б5123-45.03.04ит
+            <hr class="icon arrow-right"> Латыпов Марат
+            <div class="secret"><a href="secret-musa-page.html" target="_blank"><hr class="icon plus"></a></div>
+            2026
+        </footer>
     </body>
 </html>
