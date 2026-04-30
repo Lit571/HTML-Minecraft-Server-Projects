@@ -5,11 +5,7 @@ Debug border: border: #B6D458 thin solid;
 @import url(../styles-css/icons.css);
 @import url(../styles-css/structure.css);
 
-/* STRUCTURAL */
-
-
 /* MAIN */
-
 main{
     display: block;
     width: 100%;
@@ -189,24 +185,13 @@ a.info{
     padding: 0.3%;
 }
 
-a.honeycat{
-    color: #F9F9F5;
-    text-decoration: none;
-}
-a.honeycat:hover{
-    text-decoration: underline wavy;
-    color: #F39E3A;
+/* circle-1-2-3-4 FIX */
+.circle-1, .circle-2, .circle-3, .circle-4 {
+    margin-bottom: -0.5%;
 }
 
-
-
-
+/* MEIDA REQUEST */
 @media (max-width: 800px){
-    /* navigation */
-    nav{
-        grid-template-columns: 5% repeat(6, 15%) 5%;
-    }
-
     /* general-structure of mains */
     #main-part{
         display: grid;

@@ -1,6 +1,13 @@
 /* templates:
-Debug border: border: #B6D458 thin solid;
+Debug:
+border: #B6D458 thin solid;
+resize: both; overflow: hidden;
 */
+/* OTHER STYLES */
+/* @import url(../styles-css/icons.css);
+@import url(../styles-css/structure.css); */
+
+
 body{
     font: normal 18px "minecraft rus regular";
     background-color: #F9F9F5;
@@ -86,6 +93,21 @@ footer > div.secret{
     margin: 0 0.5%;
 }
 
+/* DISTINCT STYLES */
+a.honeycat{
+    color: #F9F9F5;
+    text-decoration: none;
+}
+a.honeycat:hover{
+    text-decoration: underline wavy;
+    color: #F39E3A;
+}
+.exaroton{
+    color: #008000;
+    text-decoration: underline dashed;
+}
+
+
 
 /* ICONS */
 header .server{
@@ -95,19 +117,37 @@ header .server{
     border-radius: 0.5rem;
 }
 nav .bracket-square-left{ 
-    width: 1.8rem;
-    height: calc(2*1.8rem);
-    margin-right: -5%;
+    width: 2rem;
+    height: 2rem;
+    margin-right: -8%;
     align-self: center;
 }
 nav .bracket-square-right{
-    width: 1.8rem;
-    height: calc(2*1.8rem);
-    margin-left: -5%;
+    width: 2rem;
+    height: 2rem;
+    margin-left: -8%;
     align-self: center;
 }
 
-.exaroton{
-    color: #008000;
-    text-decoration: underline dashed;
+
+/* MEDIA REQUESTS */
+@media (max-width: 1056px){
+    body, main, section{
+        font-size: 9px;
+    }
+    header, nav, footer{
+        font-size: 0.7rem;
+    }
+    header > .main-title{
+        font-size: 1.8rem;
+    }
+    nav{
+        grid-template-columns: 5% repeat(6, 15%) 5%;
+    }
+    nav a:hover{
+        font-size: 1rem;
+    }
+    nav .icon{
+        height: 1rem;
+    }
 }

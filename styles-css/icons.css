@@ -1,9 +1,9 @@
 /* ICONS */
 .icon{
-    display: flex;
+    display: inline-flex;
     width: 1em;
     height: 1em;
-    background: url("../img/animal/pig.png") no-repeat center / contain;
+    background: url(../img/animal/pig.png) no-repeat center / contain;
     border: 0px;
     margin: 0 0.2rem;
 }
@@ -17,14 +17,26 @@
     background-image: url(../img/icons/bracket-square-right.png);
 }
 .info{
-    background-image: url("../img/icons/interrogation.png");
+    background-image: url(../img/icons/interrogation.png);
 }
 .arrow-right{
-    background-image: url("../img/icons/arrow-right.png");
+    background-image: url(../img/icons/arrow-right.png);
 }
 .plus{
-    background-image: url("../img/icons/plus.png");
+    background-image: url(../img/icons/plus.png);
 }
 .road-work-ahead{
     background-image: url(../img/icons/road-work-ahead.png);
+}
+.circle-1{
+    background-image: url(../img/icons/circle-1.png);
+}
+.circle-2{
+    background-image: url(../img/icons/circle-2.png);
+}
+.circle-3{
+    background-image: url(../img/icons/circle-3.png);
+}
+.circle-4{
+    background-image: url(../img/icons/circle-4.png);
 }
